@@ -2,7 +2,7 @@
 
 apt --help &> /dev/null
 
-if [ $? -eq 0 ];
+if [ $? -ne 0 ];
 
 then 
 
